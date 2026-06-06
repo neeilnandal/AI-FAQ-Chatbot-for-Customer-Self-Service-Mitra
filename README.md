@@ -278,9 +278,3 @@ Potential next steps include:
 * Improve FAQ coverage using conversation data
 * Add semantic search or retrieval-augmented generation for richer answers
 * Create an admin workflow for updating FAQ content
-
-## Portfolio One-Liner
-
-Deployed **Mitra**, a Botpress-powered FAQ chatbot for Nfilade Security Solutions / MyNetSec, using lightweight HTML and JavaScript webchat integration to enable customer self-service and resolve approximately 50% of Tier-1 support queries.
-
-
