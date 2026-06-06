@@ -266,27 +266,6 @@ Relevant keywords for this project:
 * AI helpdesk assistant
 * FAQ automation
 
-## Suggested Meta Description
-
-```text
-Mitra is a Botpress-powered AI FAQ chatbot built for Nfilade Security Solutions / MyNetSec to automate Tier-1 customer support queries through website-based self-service.
-```
-
-## Suggested Repository Topics
-
-```text
-botpress
-chatbot
-conversational-ai
-customer-support
-faq-chatbot
-support-automation
-webchat
-html
-javascript
-self-service
-```
-
 ## Future Improvements
 
 Potential next steps include:
