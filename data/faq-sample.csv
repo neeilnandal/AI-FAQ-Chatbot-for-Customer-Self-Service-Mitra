@@ -1,0 +1,8 @@
+intent,example_question,response
+contact_support,How do I contact support?,You can contact support through the support form or customer support portal.
+login_issue,I cannot log in,"Please check your credentials, reset your password, or contact support if the issue continues."
+raise_ticket,How do I raise a support request?,You can raise a support request from the customer support section of the website.
+service_information,Where can I find service information?,Service information is available on the company website or through the support team.
+account_access,I cannot access my account,Please verify your login details and use the password reset option if required.
+human_escalation,I need to speak to someone,I can guide you to the human support channel for further assistance.
+fallback,What is the weather today?,I may not be able to answer that. Please ask a support-related question or contact the support team.
