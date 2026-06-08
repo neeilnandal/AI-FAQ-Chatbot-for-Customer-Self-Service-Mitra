@@ -1,0 +1,40 @@
+{
+  "project": "Mitra AI FAQ Chatbot",
+  "note": "Anonymized sample support intents for portfolio documentation only.",
+  "intents": [
+    {
+      "name": "contact_support",
+      "examples": [
+        "How do I contact support?",
+        "Where can I get help?",
+        "I need support"
+      ],
+      "response_type": "support_contact_guidance"
+    },
+    {
+      "name": "login_issue",
+      "examples": [
+        "I cannot log in",
+        "Login is not working",
+        "I forgot my password"
+      ],
+      "response_type": "troubleshooting_guidance"
+    },
+    {
+      "name": "raise_ticket",
+      "examples": [
+        "How do I raise a ticket?",
+        "I want to submit a support request"
+      ],
+      "response_type": "ticket_guidance"
+    },
+    {
+      "name": "human_escalation",
+      "examples": [
+        "I need to speak to a person",
+        "Connect me with support"
+      ],
+      "response_type": "human_handoff"
+    }
+  ]
+}
