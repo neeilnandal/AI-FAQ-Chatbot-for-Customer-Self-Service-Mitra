@@ -14,8 +14,3 @@ This project can be deployed as a static website because the chatbot is loaded t
 6. Test common support queries.
 7. Restrict allowed origins in production.
 
-## Local Test
-
-```bash
-cd public
-python -m http.server 8000
