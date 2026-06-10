@@ -161,35 +161,6 @@ A simplified initialization example is shown below:
 </html>
 ```
 
-## Security and Code Review Notes
-
-The original embed was functional, but I cleaned the structure for safer and more maintainable deployment.
-
-Key checks applied:
-
-| Area             | Review                                                                                      |
-| ---------------- | ------------------------------------------------------------------------------------------- |
-| HTML structure   | Fixed missing `<body>` opening and improved document structure                              |
-| Metadata         | Added charset and viewport tags                                                             |
-| Script loading   | Kept Botpress configuration script deferred                                                 |
-| Runtime safety   | Wrapped initialization in `window.addEventListener("load", ...)`                            |
-| External scripts | Clearly separated CDN and config script dependencies                                        |
-| Sensitive values | Bot ID and webhook ID are visible because they are required for frontend Botpress embedding |
-| Origin control   | `allowedOrigins` should be restricted before production deployment                          |
-| Branding         | Chatbot description changed from generic Botpress text to customer-support-specific wording |
-
-### Recommended Production Security Improvements
-
-Before production release, the following improvements are recommended:
-
-* Restrict `allowedOrigins` to approved domains only
-* Avoid exposing unnecessary configuration values in public repositories
-* Use HTTPS-only asset loading
-* Add a Content Security Policy where possible
-* Monitor unanswered questions and abuse patterns
-* Review chatbot responses to avoid leaking internal support or account information
-* Keep Botpress configuration access limited to authorized users
-
 ## Measuring Impact
 
 The chatbot’s value was measured through support deflection.
